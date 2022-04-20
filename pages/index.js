@@ -27,10 +27,8 @@ export default function Home() {
     }
   };
   return (
-    <h1>
-      Welcome to the infinite jest
-      <button onClick={handleClick}>Fetch api</button>
-      <p>{aloja?.element?.wena}</p>
-    </h1>
+    <div className={styles.mainContainer}>
+      <h1>Welcome to the infinite jest</h1>
+    </div>
   );
 }

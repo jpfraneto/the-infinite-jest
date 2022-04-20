@@ -1,23 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Wrapper, Status } from '@googlemaps/react-wrapper';
-
-const render = (status: Status) => {
-  return <h1>{status}</h1>;
-};
+import { locations } from '../../data/locations';
+import Link from 'next/link';
 
 const Locations = () => {
-  const ref = React.useRef(null);
-  const [map, setMap] = React.useState();
-
-  React.useEffect(() => {
-    if (ref.current && !map) {
-      setMap(new window.google.maps.Map(ref.current, {}));
-    }
-  }, [ref, map]);
+  const [chosenLocation, setChosenLocation] = useState('');
   return (
-    <Wrapper apiKey={'AIzaSyDjZe_vk11_uwlWVFnu9RDHpfLlIcUGQq0'} render={render}>
-      <YourComponent />
-    </Wrapper>
+    <>
+      <select
+        name='locationName'
+        onChange={e => setChosenLocation(e.target.value)}
+      >
+        <option selected='true'>Choose location...</option>
+        {locations.map(location => (
+          <option name={location.name} value={location.slug}>
+            {location.name} - {location.city} - {location.country}
+          </option>
+        ))}
+      </select>
+      {chosenLocation && (
+        <Link href={`/locations/${chosenLocation}`}>
+          <a>Go to location</a>
+        </Link>
+      )}
+    </>
   );
 };
 

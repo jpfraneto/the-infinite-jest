@@ -1,0 +1,28 @@
+.secondaryNav {
+  height: 24px;
+  background-color: pink;
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  padding: 2px 8px;
+  justify-content: space-between;
+}
+
+.leftSecondaryNav {
+}
+
+.rightSecondaryNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightSecondaryNav a {
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.rightSecondaryNav a:hover {
+  transform: scale(1.1rem);
+  font-weight: bold;
+}
