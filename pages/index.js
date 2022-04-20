@@ -1,7 +1,36 @@
+import { useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
-  return <h1>Welcome to the infinite jest</h1>;
+  const [aloja, setAloja] = useState(null);
+  const handleClick = async () => {
+    try {
+      const reqOptions = {
+        method: 'GET',
+        mode: 'cors',
+        cache: 'no-cache',
+        credentials: 'same-origin',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        redirect: 'follow',
+        referrerPolicy: 'no-referrer',
+      };
+      const response = await fetch('http://localhost:3000/api', reqOptions);
+      const data = await response.json();
+      setAloja(data);
+    } catch (error) {
+      console.log(error);
+      console.log('there was an error fetching the api route');
+    }
+  };
+  return (
+    <h1>
+      Welcome to the infinite jest
+      <button onClick={handleClick}>Fetch api</button>
+      <p>{aloja?.element?.wena}</p>
+    </h1>
+  );
 }
