@@ -17,20 +17,12 @@ export async function getStaticProps({ params }) {
   return { props: { thisLocation } };
 }
 
-export default function Location({ thisLocation }) {
+const Location = ({ thisLocation }) => {
   return (
     <div>
-      <div className={styles.secondaryNav}>
-        <div className={styles.leftSecondaryNav}>
-          {thisLocation.name} - {thisLocation.city} - {thisLocation.country}
-        </div>
-        <div className={styles.rightSecondaryNav}>
-          <a href='?billetera'>Billetera</a>
-          <a href='?miembros'>Miembros</a>
-          <a href='?calendario'>Calendario</a>
-        </div>
-      </div>
       <h2>This is the dashboard for {thisLocation.name}</h2>
     </div>
   );
-}
+};
+
+export default Location;

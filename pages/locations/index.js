@@ -12,8 +12,8 @@ const Locations = () => {
         onChange={e => setChosenLocation(e.target.value)}
       >
         <option selected='true'>Choose location...</option>
-        {locations.map(location => (
-          <option name={location.name} value={location.slug}>
+        {locations.map((location, index) => (
+          <option name={location.name} key={index} value={location.slug}>
             {location.name} - {location.city} - {location.country}
           </option>
         ))}

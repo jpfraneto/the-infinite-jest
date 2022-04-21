@@ -1,15 +1,17 @@
 import { useState } from 'react';
 import styles from './Navbar.module.css';
 import { TiThMenu } from 'react-icons/ti';
+import Link from 'next/link';
 
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
     <nav className={styles.navigation}>
-      <a href='/' className={styles.brandName}>
-        The Infinite Jest
-      </a>
+      <Link href='/'>
+        <a className={styles.brandName}>The Infinite Jest</a>
+      </Link>
+
       <button
         className={styles.hamburger}
         onClick={() => {
@@ -26,15 +28,15 @@ export default function Navbar() {
         }
       >
         <ul>
-          <li>
-            <a href='/'>Home</a>
-          </li>
-          <li>
-            <a href='/locations'>Locations</a>
-          </li>
-          <li>
-            <a href='/project'>About</a>
-          </li>
+          <Link href='/'>
+            <a>Home</a>
+          </Link>
+          <Link href='/locations'>
+            <a>Locations</a>
+          </Link>
+          <Link href='/project'>
+            <a>About</a>
+          </Link>
         </ul>
       </div>
     </nav>

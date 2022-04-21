@@ -1,12 +1,19 @@
-const movements = [
+export const movements = [
   {
     date: '2022-04-20 15:17:13',
-    type: 'income',
     details: 'Préstamo de Jorge Felipe Franetovic Yob',
+    amount: 1000000,
+    sign: '+',
+  },
+  {
+    date: '2022-04-20 15:17:13',
+    details: 'Buying implements for growing',
+    amount: 22222,
+    sign: '-',
   },
 ];
 
-const futureMovements = [
+export const futureMovements = [
   {
     name: 'Association Lawyer',
     coin: 'CLP',
