@@ -1,11 +1,17 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import EdibleCard from '../components/EdibleCard';
+import { quotes } from '../data/quotes';
 
 export default function Home() {
   const [aloja, setAloja] = useState(null);
+  const [randomQuote, setRandomQuote] = useState('');
+  useEffect(() => {
+    setRandomQuote(quotes[Math.floor(Math.random() * quotes.length)]);
+  }, []);
+
   const handleClick = async () => {
     try {
       const reqOptions = {
@@ -29,6 +35,7 @@ export default function Home() {
   };
   return (
     <div className={styles.mainContainer}>
+      <h4>"{randomQuote}"</h4>
       <h2>We strive to create full-on experiences that transform lives</h2>
       <div className={styles.ediblesContainer}>
         <EdibleCard />
