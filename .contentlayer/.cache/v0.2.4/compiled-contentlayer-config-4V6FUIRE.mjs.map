@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../contentlayer.config.js"],
+  "sourcesContent": ["import { defineDocumentType, makeSource } from 'contentlayer/source-files';\n\nexport const Host = defineDocumentType(() => ({\n  name: 'Host',\n  filePathPattern: `hosts/*.mdx`,\n  contentType: 'mdx',\n  fields: {\n    dbname: {\n      type: 'string',\n    },\n    albumtitle: {\n      type: 'string',\n    },\n    albumartist: {\n      type: 'string',\n    },\n    albumImageUrl: {\n      type: 'string',\n    },\n    guest: {\n      type: 'string',\n    },\n    episodeUrl: {\n      type: 'string',\n    },\n  },\n}));\n\nexport default makeSource({\n  contentDirPath: 'data',\n  documentTypes: [Host],\n});\n"],
+  "mappings": ";AAAA;AAEO,IAAM,OAAO,mBAAmB,MAAO;AAAA,EAC5C,MAAM;AAAA,EACN,iBAAiB;AAAA,EACjB,aAAa;AAAA,EACb,QAAQ;AAAA,IACN,QAAQ;AAAA,MACN,MAAM;AAAA,IACR;AAAA,IACA,YAAY;AAAA,MACV,MAAM;AAAA,IACR;AAAA,IACA,aAAa;AAAA,MACX,MAAM;AAAA,IACR;AAAA,IACA,eAAe;AAAA,MACb,MAAM;AAAA,IACR;AAAA,IACA,OAAO;AAAA,MACL,MAAM;AAAA,IACR;AAAA,IACA,YAAY;AAAA,MACV,MAAM;AAAA,IACR;AAAA,EACF;AACF,EAAE;AAEF,IAAO,8BAAQ,WAAW;AAAA,EACxB,gBAAgB;AAAA,EAChB,eAAe,CAAC,IAAI;AACtB,CAAC;",
+  "names": []
+}

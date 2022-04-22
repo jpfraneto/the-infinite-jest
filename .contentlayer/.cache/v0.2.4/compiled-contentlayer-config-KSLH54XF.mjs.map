@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../contentlayer.config.js"],
+  "sourcesContent": ["import { defineDocumentType, makeSource } from 'contentlayer/source-files';\n\nexport const Host = defineDocumentType(() => ({\n  name: 'Host',\n  filePathPattern: `hosts/*.mdx`,\n  contentType: 'mdx',\n  fields: {\n    name: {\n      type: 'string',\n    },\n    location: {\n      type: 'string',\n    },\n    contact: {\n      type: 'string',\n    },\n    locationName: {\n      type: 'string',\n    },\n    locationSlug: {\n      type: 'string',\n    },\n    workplace: {\n      type: 'string',\n    },\n    workplaceUrl: {\n      type: 'string',\n    },\n    website: {\n      type: 'string',\n    },\n    hostname: {\n      type: 'string',\n    },\n    image: {\n      type: 'string',\n    },\n  },\n}));\n\nexport default makeSource({\n  contentDirPath: 'data',\n  documentTypes: [Host],\n});\n"],
+  "mappings": ";AAAA;AAEO,IAAM,OAAO,mBAAmB,MAAO;AAAA,EAC5C,MAAM;AAAA,EACN,iBAAiB;AAAA,EACjB,aAAa;AAAA,EACb,QAAQ;AAAA,IACN,MAAM;AAAA,MACJ,MAAM;AAAA,IACR;AAAA,IACA,UAAU;AAAA,MACR,MAAM;AAAA,IACR;AAAA,IACA,SAAS;AAAA,MACP,MAAM;AAAA,IACR;AAAA,IACA,cAAc;AAAA,MACZ,MAAM;AAAA,IACR;AAAA,IACA,cAAc;AAAA,MACZ,MAAM;AAAA,IACR;AAAA,IACA,WAAW;AAAA,MACT,MAAM;AAAA,IACR;AAAA,IACA,cAAc;AAAA,MACZ,MAAM;AAAA,IACR;AAAA,IACA,SAAS;AAAA,MACP,MAAM;AAAA,IACR;AAAA,IACA,UAAU;AAAA,MACR,MAAM;AAAA,IACR;AAAA,IACA,OAAO;AAAA,MACL,MAAM;AAAA,IACR;AAAA,EACF;AACF,EAAE;AAEF,IAAO,8BAAQ,WAAW;AAAA,EACxB,gBAAgB;AAAA,EAChB,eAAe,CAAC,IAAI;AACtB,CAAC;",
+  "names": []
+}

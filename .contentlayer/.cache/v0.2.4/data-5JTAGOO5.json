@@ -1,0 +1,82 @@
+{
+  "cacheItemsMap": {
+    "articles/about-v1.mdx": {
+      "document": {
+        "title": "First exploration into what this is about",
+        "date": "2022-04-21T14:52:45.000Z",
+        "slug": "about-v1",
+        "articleType": "about",
+        "body": {
+          "raw": "\nI had to come here to write this down so that I can better understand what this project is about. I already built the landing page with the youtube videos being played 24/7. That was straightforward. Now I need to make it easy for new users to add styling options to it. Fork the github repo and add the styles that she wants. That is something that I need to work on, since it is part of the core functionality of what I'm building here.\n\nHow do I imagine this place? It will be what will be running in the TV that will located in the office, and the office is a place which's only light comes from the TV. It is a signal of what can happen when we let entertainment rule our lifes.\n\nEach location will have its own information, what comes to mind right now is:\n\n- Members: It is something like a club, on which people from the city where the location is can be part of this space. Those of which are present in that space are able to schedule a date on which they will go and enjoy what is being played in that moment. They will go there and throw themselves into the experience. Will someone do this? Is this something that is possible or am I just dreaming? Who is going to do this? What does the place offer that person? These are all questions that I have in my mind. Isn't it too much to go into a place and spend 4 hours alone flying with your own mind? How does this relate to what that person needs? What does this speak about depression? How will this place help that person with her depression? What is the connection? Is this something real or am I just imagining it? The thing is to see this whole adventure as something more that a way of earning money. It is an experience to be lived. And people can ask for a piece of the product that they can bring into their houses. Or not? Are people going to be able to take a product to their house? Of course they are. And that's why the label will have a QR code, which will bring them into www.theinfinitejest.tv. That is an amazing part of this whole system. That is the magic.\n\n- Calendar: Members will be able to select a day on which to go to the spaceship, and through that connect with their deepest core by consuming the content that will be available for them.\n",
+          "code": "var Component=(()=>{var c=Object.create;var h=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var w=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),u=(e,t)=>{for(var n in t)h(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!m.call(e,a)&&a!==n&&h(e,a,{get:()=>t[a],enumerable:!(o=d(t,a))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?c(w(e)):{},s(t||!e||!e.__esModule?h(n,\"default\",{value:e,enumerable:!0}):n,e)),f=e=>s(h({},\"__esModule\",{value:!0}),e);var l=g((v,r)=>{r.exports=_jsx_runtime});var x={};u(x,{default:()=>j,frontmatter:()=>y});var i=b(l()),y={title:\"First exploration into what this is about\",date:new Date(1650552765e3),slug:\"about-v1\",articleType:\"about\"};function I(e={}){let{wrapper:t}=e.components||{};return t?(0,i.jsx)(t,Object.assign({},e,{children:(0,i.jsx)(n,{})})):n();function n(){let o=Object.assign({p:\"p\",ul:\"ul\",li:\"li\"},e.components);return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(o.p,{children:\"I had to come here to write this down so that I can better understand what this project is about. I already built the landing page with the youtube videos being played 24/7. That was straightforward. Now I need to make it easy for new users to add styling options to it. Fork the github repo and add the styles that she wants. That is something that I need to work on, since it is part of the core functionality of what I'm building here.\"}),`\n`,(0,i.jsx)(o.p,{children:\"How do I imagine this place? It will be what will be running in the TV that will located in the office, and the office is a place which's only light comes from the TV. It is a signal of what can happen when we let entertainment rule our lifes.\"}),`\n`,(0,i.jsx)(o.p,{children:\"Each location will have its own information, what comes to mind right now is:\"}),`\n`,(0,i.jsxs)(o.ul,{children:[`\n`,(0,i.jsxs)(o.li,{children:[`\n`,(0,i.jsx)(o.p,{children:\"Members: It is something like a club, on which people from the city where the location is can be part of this space. Those of which are present in that space are able to schedule a date on which they will go and enjoy what is being played in that moment. They will go there and throw themselves into the experience. Will someone do this? Is this something that is possible or am I just dreaming? Who is going to do this? What does the place offer that person? These are all questions that I have in my mind. Isn't it too much to go into a place and spend 4 hours alone flying with your own mind? How does this relate to what that person needs? What does this speak about depression? How will this place help that person with her depression? What is the connection? Is this something real or am I just imagining it? The thing is to see this whole adventure as something more that a way of earning money. It is an experience to be lived. And people can ask for a piece of the product that they can bring into their houses. Or not? Are people going to be able to take a product to their house? Of course they are. And that's why the label will have a QR code, which will bring them into www.theinfinitejest.tv. That is an amazing part of this whole system. That is the magic.\"}),`\n`]}),`\n`,(0,i.jsxs)(o.li,{children:[`\n`,(0,i.jsx)(o.p,{children:\"Calendar: Members will be able to select a day on which to go to the spaceship, and through that connect with their deepest core by consuming the content that will be available for them.\"}),`\n`]}),`\n`]})]})}}var j=I;return f(x);})();\n;return Component;"
+        },
+        "_id": "articles/about-v1.mdx",
+        "_raw": {
+          "sourceFilePath": "articles/about-v1.mdx",
+          "sourceFileName": "about-v1.mdx",
+          "sourceFileDir": "articles",
+          "contentType": "mdx",
+          "flattenedPath": "articles/about-v1"
+        },
+        "type": "Article"
+      },
+      "documentHash": "1650645236942",
+      "hasWarnings": false,
+      "documentTypeName": "Article"
+    },
+    "articles/about-v2.mdx": {
+      "document": {
+        "title": "Second exploration into what this is about",
+        "date": "2022-04-22T12:35:09.000Z",
+        "slug": "about-v2",
+        "articleType": "about",
+        "body": {
+          "raw": "\nI'm here again, trying to understand. Writing to think. I write so that I can think. The first time that I read that it made a lot of sense to me. Because I haven't really made myself the time to fully understand what this project is about, it is a constant exploration and discovery.\n\nRight now I have been working on the page of the host of a particular instance of The Infinite Jest. The only host that exists now is me, located in Puerto Varas. But what happens when there is a new one? How does he become part of this adventure? What does he offer? Isn't it great that each person is able to share whatever he wants with the community? If there is a musician, perharps he can deliver and share his musicianship. If he is a tattoo artist, he can also share this. Why limit the capacity of sharing to a jar of a strong cannabis edible? Why should I do this? It doesn't make sense. I need to leave it open.\n\nHow is John, from boston massachussets going to be able to create an instance of the infinite jest where he lives? What does it need to happen in order for this to be a reality? I need to be able to share the message in a clear way in the website, so that people can come in and be interested in being part of this thing.\n",
+          "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var u=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},h=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of p(t))!f.call(e,s)&&s!==a&&i(e,s,{get:()=>t[s],enumerable:!(o=l(t,s))||o.enumerable});return e};var g=(e,t,a)=>(a=e!=null?d(m(e)):{},h(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),w=e=>h(i({},\"__esModule\",{value:!0}),e);var c=u((_,r)=>{r.exports=_jsx_runtime});var j={};b(j,{default:()=>x,frontmatter:()=>y});var n=g(c()),y={title:\"Second exploration into what this is about\",date:new Date(1650630909e3),slug:\"about-v2\",articleType:\"about\"};function I(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,Object.assign({},e,{children:(0,n.jsx)(a,{})})):a();function a(){let o=Object.assign({p:\"p\"},e.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(o.p,{children:\"I'm here again, trying to understand. Writing to think. I write so that I can think. The first time that I read that it made a lot of sense to me. Because I haven't really made myself the time to fully understand what this project is about, it is a constant exploration and discovery.\"}),`\n`,(0,n.jsx)(o.p,{children:\"Right now I have been working on the page of the host of a particular instance of The Infinite Jest. The only host that exists now is me, located in Puerto Varas. But what happens when there is a new one? How does he become part of this adventure? What does he offer? Isn't it great that each person is able to share whatever he wants with the community? If there is a musician, perharps he can deliver and share his musicianship. If he is a tattoo artist, he can also share this. Why limit the capacity of sharing to a jar of a strong cannabis edible? Why should I do this? It doesn't make sense. I need to leave it open.\"}),`\n`,(0,n.jsx)(o.p,{children:\"How is John, from boston massachussets going to be able to create an instance of the infinite jest where he lives? What does it need to happen in order for this to be a reality? I need to be able to share the message in a clear way in the website, so that people can come in and be interested in being part of this thing.\"})]})}}var x=I;return w(j);})();\n;return Component;"
+        },
+        "_id": "articles/about-v2.mdx",
+        "_raw": {
+          "sourceFilePath": "articles/about-v2.mdx",
+          "sourceFileName": "about-v2.mdx",
+          "sourceFileDir": "articles",
+          "contentType": "mdx",
+          "flattenedPath": "articles/about-v2"
+        },
+        "type": "Article"
+      },
+      "documentHash": "1650645511237",
+      "hasWarnings": false,
+      "documentTypeName": "Article"
+    },
+    "hosts/jpfraneto.mdx": {
+      "document": {
+        "name": "Jorge Pablo Franetovic Stocker",
+        "location": "Puerto Varas, Chile",
+        "contact": "jpfraneto@gmail.com",
+        "locationName": "La Broma Infinita",
+        "locationSlug": "la-broma-infinita",
+        "workplace": "Bolt",
+        "workplaceUrl": "www.bolt.com",
+        "website": "www.jpfraneto.com",
+        "hostname": "jpfraneto",
+        "image": "/images/jpfraneto.jpg",
+        "body": {
+          "raw": "\nMy name is JP, and I'm a very big fan of the unknown. I created The Infinite Jest as a means of exploring consciousness through the exposure to random content that can split your skull in two and turn your brain and all of its content upside down.\n\nWhat comes after the realization that you are more than what you think you are?\n\nI strongly believe that the answer to this is a deep drive to make the world a better place. At least for me, it has been like that. This space is a consequence of that quest. I hope that I managed to build it in a way that makes sense.\n",
+          "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,d=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),w=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},i=(t,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of p(e))!d.call(t,r)&&r!==n&&s(t,r,{get:()=>e[r],enumerable:!(o=m(e,r))||o.enumerable});return t};var g=(t,e,n)=>(n=t!=null?h(u(t)):{},i(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),b=t=>i(s({},\"__esModule\",{value:!0}),t);var l=f((_,c)=>{c.exports=_jsx_runtime});var k={};w(k,{default:()=>y,frontmatter:()=>j});var a=g(l()),j={name:\"Jorge Pablo Franetovic Stocker\",location:\"Puerto Varas, Chile\",contact:\"jpfraneto@gmail.com\",locationName:\"La Broma Infinita\",locationSlug:\"la-broma-infinita\",workplace:\"Bolt\",workplaceUrl:\"www.bolt.com\",website:\"www.jpfraneto.com\",hostname:\"jpfraneto\",image:\"/images/jpfraneto.jpg\"};function x(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,Object.assign({},t,{children:(0,a.jsx)(n,{})})):n();function n(){let o=Object.assign({p:\"p\"},t.components);return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(o.p,{children:\"My name is JP, and I'm a very big fan of the unknown. I created The Infinite Jest as a means of exploring consciousness through the exposure to random content that can split your skull in two and turn your brain and all of its content upside down.\"}),`\n`,(0,a.jsx)(o.p,{children:\"What comes after the realization that you are more than what you think you are?\"}),`\n`,(0,a.jsx)(o.p,{children:\"I strongly believe that the answer to this is a deep drive to make the world a better place. At least for me, it has been like that. This space is a consequence of that quest. I hope that I managed to build it in a way that makes sense.\"})]})}}var y=x;return b(k);})();\n;return Component;"
+        },
+        "_id": "hosts/jpfraneto.mdx",
+        "_raw": {
+          "sourceFilePath": "hosts/jpfraneto.mdx",
+          "sourceFileName": "jpfraneto.mdx",
+          "sourceFileDir": "hosts",
+          "contentType": "mdx",
+          "flattenedPath": "hosts/jpfraneto"
+        },
+        "type": "Host"
+      },
+      "documentHash": "1650644777855",
+      "hasWarnings": false,
+      "documentTypeName": "Host"
+    }
+  }
+}

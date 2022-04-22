@@ -37,6 +37,9 @@ export default function Navbar() {
           <Link href='/project'>
             <a>About</a>
           </Link>
+          <Link href='/coworking'>
+            <a>CoWorking</a>
+          </Link>
         </ul>
       </div>
     </nav>

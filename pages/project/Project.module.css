@@ -1,0 +1,22 @@
+.mainContainer {
+  display: flex;
+  max-width: 777px;
+  margin: 0 auto;
+}
+
+.mainContainer > * {
+  padding: 8px;
+}
+
+.aboutsContainer {
+  min-width: 222px;
+}
+
+.aboutsContainer li {
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.aboutReader {
+  background-color: aquamarine;
+}

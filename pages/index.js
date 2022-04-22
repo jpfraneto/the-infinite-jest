@@ -4,6 +4,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import EdibleCard from '../components/EdibleCard';
 import { quotes } from '../data/quotes';
+import MemberCircle from '../components/Members/MemberCircle';
 
 export default function Home() {
   const [aloja, setAloja] = useState(null);
@@ -35,13 +36,29 @@ export default function Home() {
   };
   return (
     <div className={styles.mainContainer}>
-      <h4>"{randomQuote}"</h4>
-      <h2>We strive to create full-on experiences that transform lives</h2>
-      <div className={styles.ediblesContainer}>
-        <EdibleCard />
-        <EdibleCard />
-        <EdibleCard />
-      </div>
+      <section className={styles.firstSection}>
+        <h4>
+          <em>"{randomQuote}"</em>
+        </h4>
+        <h2>
+          We are a network of remote workers whose mission is to help develop
+          the community on which we live.
+        </h2>
+        <h5>
+          We share our offices, and we commit to create the coolest place in
+          town. Each office is a cultural center. A landmark.{' '}
+          <strong>The</strong> place to visit.{' '}
+        </h5>
+        <div className={styles.membersContainer}>
+          <MemberCircle />
+          <MemberCircle />
+          <MemberCircle />
+          <MemberCircle />
+        </div>
+      </section>
+      <section className={styles.secondSection}>
+        <h1>Locations:</h1>
+      </section>
     </div>
   );
 }
