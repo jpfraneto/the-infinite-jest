@@ -10,18 +10,18 @@ export async function getStaticProps({ params }) {
   return { props: { aboutArticles } };
 }
 
-const AboutTextDisplay = ({ aboutObject }) => {
-  if (!aboutObject.body) {
-    return null;
-  }
-  const MDXContent = useMDXComponent(aboutObject.body.code);
-  return (
-    <>
-      <h3> {aboutObject.title}</h3>
-      <MDXContent components={mdxComponents} />
-    </>
-  );
-};
+// const AboutTextDisplay = ({ aboutObject }) => {
+//   if (!aboutObject.body) {
+//     return null;
+//   }
+//   const MDXContent = useMDXComponent(aboutObject.body.code);
+//   return (
+//     <>
+//       <h3> {aboutObject.title}</h3>
+//       <MDXContent components={mdxComponents} />
+//     </>
+//   );
+// };
 
 const Project = ({ aboutArticles }) => {
   const [chosenAbout, setChosenAbout] = useState({});
@@ -34,17 +34,19 @@ const Project = ({ aboutArticles }) => {
           <ul>
             {aboutArticles.map(article => {
               return (
-                <li onClick={() => setChosenAbout(article)}>{article.title}</li>
+                <li key={article.slug} onClick={() => setChosenAbout(article)}>
+                  {article.title}
+                </li>
               );
             })}
           </ul>
         </div>
 
-        {chosenAbout.body && (
+        {/* {chosenAbout.body && (
           <div className={styles.aboutReader}>
             <AboutTextDisplay aboutObject={chosenAbout} />
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );

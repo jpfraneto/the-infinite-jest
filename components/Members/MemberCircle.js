@@ -5,9 +5,14 @@ import Link from 'next/link';
 
 const MemberCircle = () => {
   return (
-    <Link href='/hosts/jpfraneto'>
+    <Link href='/hosts/jpfraneto' passHref>
       <div className={styles.memberImageContainer}>
-        <Image src={'/images/jpfraneto.jpg'} width='60' height='60' />
+        <Image
+          alt='Host Image'
+          src={'/images/jpfraneto.jpg'}
+          width='60'
+          height='60'
+        />
       </div>
     </Link>
   );

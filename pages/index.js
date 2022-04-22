@@ -38,7 +38,11 @@ export default function Home() {
     <div className={styles.mainContainer}>
       <section className={styles.firstSection}>
         <h4>
-          <em>"{randomQuote}"</em>
+          <em>
+            {`&quot`}
+            {randomQuote}
+            {`&quot`}
+          </em>
         </h4>
         <h2>
           We are a network of remote workers whose mission is to help develop

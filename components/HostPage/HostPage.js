@@ -11,7 +11,7 @@ const HostPage = ({ host }) => {
   return (
     <div className={styles.container}>
       <div className={styles.userImage}>
-        <Image src={host.image} width='333' height='333' />
+        <Image alt={'Host image'} rc={host.image} width='333' height='333' />
       </div>
       <div className={styles.userDescription}>
         <h2>{host.name}</h2>
