@@ -25,7 +25,7 @@ const NewRecommendation = () => {
     <div>
       <form onSubmit={handleSubmit}>
         <div className='form-group'>
-          <label for='videoURL' className='content'>
+          <label htmlFor='videoURL' className='content'>
             Youtube URL:
           </label>
           <input
